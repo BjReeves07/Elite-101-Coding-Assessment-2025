@@ -1,4 +1,4 @@
-### Note: I feel that I do understand this program and would be able to do work like this in a job, but I often had to use documentation or other online resources to understand the python syntax, as I am much better in java so any ineffciency or something else is likely due to that.
+### Note: This was originally done in the VS code IDE for windows then moved, also I feel that I do understand this program and would be able to do work like this in a job, but I often had to use documentation or other online resources to understand the python syntax, as I am much better in java so any ineffciency or something else is likely due to that.
 def getFreeTables(tables):
     """Level 1: List all tables that are currently free."""
     return [table['table_id'] for table in tables if not table['occupied']]
